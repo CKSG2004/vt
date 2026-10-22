@@ -1,0 +1,6 @@
+wget https://download.cirros-cloud.net/0.5.1/cirros-0.5.1-x86_64-disk.img
+
+sudo apt install qemu-kvm libvirt-bin bridge-utils virt-manager qemu-system
+sudo systemctl restart libvirtd
+virsh list
+sudo virt-manager
